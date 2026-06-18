@@ -1,6 +1,6 @@
 ## Description
 
-Une application web utilise une base de données PostgreSQL 13 hébergée sur ce serveur. Cependant, la connexion à la base de données est impossible. Votre tâche consiste à identifier et à résoudre le problème à l'origine de cette défaillance. L'application se connecte à la base de données nommée « app1 » avec l'utilisateur et le mot de passe « app1user ».
+A web application relies on the PostgreSQL 13 database present on this server. However, the connection to the database is not working. Your task is to identify and resolve the issue causing this connection failure. The application connects to a database named app1 with the user app1user and the password app1user.
 
 ---
 
