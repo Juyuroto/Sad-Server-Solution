@@ -4,6 +4,8 @@ Une application web utilise une base de données PostgreSQL 13 hébergée sur ce
 
 ---
 
+## Test
+
 ```bash
 sudo services postgresql status
 PGPASSWORD=app1user psql -h 127.0.0.1 -d app1 -U app1user -c '\q'
@@ -26,7 +28,7 @@ sudo nano pg.hba.conf
 
 ### Contained in pg.hba.conf
 
-![Texte alternatif](./picture/pg.hba.conf.png "Le titre de mon image")
+![](./picture/pg.hba.conf.png)
 
 ### To change
 
