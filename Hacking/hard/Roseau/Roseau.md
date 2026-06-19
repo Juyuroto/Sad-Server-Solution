@@ -34,7 +34,7 @@ On trouve donc que nous avons affaire à un fichier ".zip". On doit maintenant l
 
 A ce moment on pense avoir toucher le bout mais ce zip est proteger par un mot de passe. Sur Kali Linux il existe un outil qui s'appelle fcrackzip qui permet de faire cela.
 
-La commande suivante sudo `crackzip -u -D -p /usr/share/wordlists/rockyou.txt t.zip` on trouve finalement que le mot de passe est "andes" ou peut etre que c'est une collision. C'est à dire un mot de passe qui permet de déchiffrer mais qui n'est pas le mot de passe original si un algorithme est mal codé il se peut que plusieurs mot de passe permettent d'arriver au résultat final.
+La commande suivante sudo `crackzip -u -D -p /usr/share/wordlists/rockyou.txt t.zip` on trouve finalement que le mot de passe est "andes" ou peut etre que c'est une collision. C'est à dire un mot de passe qui permet de déchiffrer mais qui n'est pas le mot de passe original. Si un algorithme est mal codé il se peut que plusieurs mots de passe permettent d'arriver au résultat final.
 
 "secret.txt" contient donc "Roseau, Dominica"
 
