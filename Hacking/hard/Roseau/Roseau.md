@@ -4,7 +4,7 @@
 Nous nous trouvons sur une serveur qui héberge une application web avec le serveur web Apache. L'objectif n'est pas différent de d'habitude, il s'agit de trouver le fichier "secret.txt". La consigne indique que nous avons accès aux outils Hashcat, John The Ripper et Hydra qui sont des outils de bruteforce et plus specifiquement de mot de passe pour ce qui est du cas de Hashcat et John The Ripper car Hydra permet de faire beaucoup plus de chose.
 
 ## Etape 1
-Si je détaille plus haut à quoi servent ces otuils c'est que c'est qu'ils indiquent où se rendre ensuite. Dans Apache il existe un fichier qui s'appelle ".htpasswd" qui permet de gerer une authentification pour les pages web. https://httpd.apache.org/docs/current/programs/htpasswd.html
+Si je détaille plus haut à quoi servent ces outils c'est que c'est qu'ils indiquent où se rendre ensuite. Dans Apache il existe un fichier qui s'appelle ".htpasswd" qui permet de gerer une authentification pour les pages web. https://httpd.apache.org/docs/current/programs/htpasswd.html
 ![](./pictures/web_auth_apache.png)
 
 Bingo!! Le fichier est bien lisible par l'utilisateur courant. On voit donc le nom de l'utilisations ainsi qu'un hash de son mot de passe: `$apr1$b1kyfnHB$yRHwzbuKSMyW62QTnGYCb0`.
