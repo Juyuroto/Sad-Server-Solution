@@ -44,7 +44,7 @@ these are not the droids you're looking for
 sudo ss -tulpn | grep :8888
 ```
 
-## returns
+## Returns
 
 ```bash
 tcp   LISTEN 0      511                            0.0.0.0:8888      0.0.0.0:*    users:(("nginx",pid=620,fd=6),("nginx",pid=619,fd=6),("nginx",pid=618,fd=6))
