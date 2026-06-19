@@ -65,7 +65,7 @@ nano Dockerfile
 
 ### To change
 
-```
+```bash
 # documentation https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
 # most recent node (security patches) and alpine (minimal, adds to security, possible libc issues)
@@ -98,7 +98,7 @@ CMD [ "node", "serve.js" ]
 
 ### For
 
-```
+```bash
 # documentation https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
 # most recent node (security patches) and alpine (minimal, adds to security, possible libc issues)

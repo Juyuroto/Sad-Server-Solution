@@ -32,7 +32,7 @@ sudo nano pg.hba.conf
 
 ### To change
 
-```
+```bash
 # Database administrative login by Unix domain socket
 local     all     postgres                  peer
 host      all     all           all         reject
@@ -41,7 +41,7 @@ host      all     all           all         reject
 
 ### For
 
-```
+```bash
 # Database administrative login by Unix domain socket
 local     all     postgres                      peer
 #host     all     all           all             reject
