@@ -1,4 +1,6 @@
 # Roseau: Hack a Web Server
+## hard
+
 ## Contexte
 
 Nous nous trouvons sur une serveur qui héberge une application web avec le serveur web Apache. L'objectif n'est pas différent de d'habitude, il s'agit de trouver le fichier "secret.txt". La consigne indique que nous avons accès aux outils Hashcat, John The Ripper et Hydra qui sont des outils de bruteforce et plus specifiquement de mot de passe pour ce qui est du cas de Hashcat et John The Ripper car Hydra permet de faire beaucoup plus de chose.
