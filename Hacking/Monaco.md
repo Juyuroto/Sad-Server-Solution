@@ -23,7 +23,7 @@ Nous sommes donc sur un un serveur Flask, un serveur web Python avec une route e
 
 La commande suivante est celle qui nous permet d'envoyer le mot de passe  à l'application :
 
-`curl -H "Content-Type: application/x-www-form-urlencoded" -X POST -d "password=1234" [http://localhost:5000/](http://localhost:5000/ "http://localhost:5000/")`
+`curl -H "Content-Type: application/x-www-form-urlencoded" -X POST -d "password=1234" http://localhost:5000/`
 
 En lisant le code on voit que le mot de passe se trouve dans les variables d'environnements.
 
@@ -35,7 +35,7 @@ La commande `ps -aux` nous donne le résultat suivant.
 
 ![](./pictures/monaco/process.png)
 Le processus est le **563**, on va utiliser **GDB** qui est un debugger et permet de lire des informations directement dans un processus.
-On utilise la commande **print (char *) getenv("SUPERSECRETPASSWORD")**
+On utilise la commande **print (char \*) getenv("SUPERSECRETPASSWORD")**
 
 ![](./pictures/monaco/gdb.png)
 
