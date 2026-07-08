@@ -1,5 +1,4 @@
-# "Madrid": exploiting capabilities
-# hard
+# "Madrid": exploiting capabilities (hard)
 
 Habituellement lors de ce type de challenge on va chercher ce qu'on appelle un **SUID** qui fournirait à un binaire des privilège trop élevés ce qui nous permettrait d'exécuter ce même programme en tant que root ce qui est dévastateur. 
 Pour éviter au mieux ces problèmes Linux a mis en place ce qu'on appelle les **capabilities** qui fonctionne de la même manière que sur **Docker** si vous  avez l'habitude de cet outil.

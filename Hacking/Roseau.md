@@ -1,5 +1,4 @@
-# Roseau: Hack a Web Server
-## hard
+# Roseau: Hack a Web Server (hard)
 
 ## Contexte
 
