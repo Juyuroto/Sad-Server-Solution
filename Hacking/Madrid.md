@@ -5,7 +5,8 @@ Vous pouvez regarder [Linux Capabilities and PrivEsc | ElnurBDa](https://elnurbd
 
 la commande `getcap / -r` : permet de regarder si des fichier depuis la racine en mode récursif (c'est à dire qu'il  va aller voir dans tous les dossiers du système) aurait des capabilities mal configurées.
 
-![[Pasted image 20260708134436.png]]
+![](./pictures/get_cap_cmd.png)
+
 
 On comprend que le binaire Python3.13 a le droit **cap_dac_override** (bypass discretionary access control) ce qui signifie pour nous qu'il peut lire, écrire et exécuter n'importe quel fichier, ce qui est exactement ce que l'on cherche sachant que nous souhaitons lire le fichier /root/flag.txt
 
@@ -13,7 +14,8 @@ On se rend sur [python | GTFOBins](https://gtfobins.org/gtfobins/python/) qui es
 
 La commande qui nous intéresse vraiment est la suivante : 
 
-![[Pasted image 20260708134940.png]]
+![](./pictures/file_read_python.png)
+
 `python3.13 -c 'print(open("/root/flag.txt").read())'` comme nous n'avons aucun privilège sur la machine. Bingo on obtient le flag!!
 
 ==SadServer{CAPABILITIES_ARE_HIDDEN_GEMS}==
