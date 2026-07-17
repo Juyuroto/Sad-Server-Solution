@@ -43,6 +43,3 @@
 
 ## Explanation
 > <!-- Explication en français, pédagogique, comme si tu l'expliquais à toi-même dans 6 mois -->
-
----
-**Tags** : #
