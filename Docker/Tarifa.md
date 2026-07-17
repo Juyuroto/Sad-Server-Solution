@@ -81,7 +81,7 @@ cat cat custom-nginx_1.conf
 
 ### To change
 
-```
+```bash
 server {
     listen 80;
 
@@ -96,7 +96,7 @@ server {
 
 ### For
 
-```
+```bash
 server {
     listen 81;
 
@@ -109,6 +109,9 @@ server {
 }
 ```
 
+```bash
+cat cat docker-compose.yml
+```
 
 ### To change
 
