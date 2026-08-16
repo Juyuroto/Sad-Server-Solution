@@ -1,4 +1,4 @@
-"Bharuch": Lost in Translation
+# "Bharuch": Lost in Translation
 
 **Date** : 17/07/2026
 **Difficulté** : moyen
