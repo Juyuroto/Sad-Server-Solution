@@ -3,6 +3,11 @@
 **Date** : 19/06/2026
 **Difficulté** : moyen
 
+## TL;DR
+Identification de l'environnement d'exécution via `systemd-detect-virt` et `hostnamectl`, confirmant la présence d'une machine virtuelle AWS (KVM) avec son propre noyau et non d'un conteneur.
+
+---
+
 ## Description
 
 Essayez de déterminer si vous vous trouvez à l'intérieur d'un conteneur (comme un conteneur Docker par exemple) ou à l'intérieur d'une machine virtuelle (comme dans les autres scénarios).

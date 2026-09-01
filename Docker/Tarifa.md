@@ -3,6 +3,11 @@
 **Date** : 19/06/2026
 **Difficulté** : moyen
 
+## TL;DR
+Résolution du conflit de port en basculant `nginx_1` sur le port 81, puis raccordement du service HAProxy au réseau `backend_network` dans le `docker-compose.yml`.
+
+---
+
 ## Description
 
 Le fichier docker-compose.yml définit trois conteneurs Docker : un HAProxy acceptant les connexions sur le port 5000 de l'hôte, et deux conteneurs nginx non exposés à l'hôte.

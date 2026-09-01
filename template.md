@@ -18,6 +18,11 @@
 
 ```
 
+## Résultat
+```bash
+
+```
+
 ## Diagnostic
 ```bash
 

@@ -16,12 +16,14 @@ Ce dépôt regroupe l'ensemble de mes solutions et write-ups pour les scénarios
 ### Docker
 | Scénario | Description | Fichier |
 | :--- | :--- | :--- |
-| **Bharuch** | Diagnostic et correction de conteneurs Docker défaillants ou mal configurés. | [`Bharuch.md`](./Docker/Bharuch.md) |
-| **Helsingør** | Résolution de conflits de ports et de communication réseau entre conteneurs. | [`Helsingør.md`](./Docker/Helsingør.md) |
-| **Quito** | Prise de contrôle d'un conteneur à partir d'un autre via le partage du socket Docker (`docker.sock`). | [`Quito.md`](./Docker/Quito.md) |
-| **Salta** | Correction des volumes et de la persistance de données sous Docker. | [`Salta.md`](./Docker/Salta.md) |
-| **Tarifa** | Debugging d'images Docker et gestion des dépendances système en erreur. | [`Tarifa.md`](./Docker/Tarifa.md) |
-| **Venice** | Optimisation des dépendances et réparation des services multi-conteneurs. | [`Venice.md`](./Docker/Venice.md) |
+| **Bharuch** | Résolution d'un conflit d'architecture CPU (**arm64** vs **amd64**) provoquant l'erreur `exec format error`. | [`Bharuch.md`](./Docker/Bharuch.md) |
+| **Helsingør** | Correction d'une boucle de redémarrage sur une réplique PostgreSQL due à une sous-configuration dans `postgres.conf`. | [`Helsingør.md`](./Docker/Helsingør.md) |
+| **Podgorica** | Migration vers Podman rootless et automatisation du conteneur via un service systemd utilisateur (linger). | [`Podgorica.md`](./Docker/Podgorica.md) |
+| **Quito** | Prise de contrôle du daemon Docker de l'hôte depuis un conteneur via le montage de `/var/run/docker.sock`. (`docker.sock`). | [`Quito.md`](./Docker/Quito.md) |
+| **Salta** | Résolution d'un conflit de port (8888 occupé par Nginx) et correction d'erreurs dans le **Dockerfile** Node.js. | [`Salta.md`](./Docker/Salta.md) |
+| **Tarifa** | Debugging d'un load balancer HAProxy avec Docker Compose (correction des réseaux et conflits de ports Nginx). | [`Tarifa.md`](./Docker/Tarifa.md) |
+| **Venice** | Identification de l'environnement d'exécution (détection de virtualisation KVM vs conteneurisation). | [`Venice.md`](./Docker/Venice.md) |
+| **Woluwe** | Identification de l'image Docker sans faute de frappe via **docker history**, tag en **prod** et nettoyage des autres images. | [`Woluwe.md`](./Docker/Woluwe.md) |
 
 ---
 

@@ -3,6 +3,11 @@
 **Date** : 18/06/2026
 **Difficulté** : moyen
 
+## TL;DR
+Arrêt du service Nginx libérant le port 8888, suivi de la correction des erreurs dans le `Dockerfile` (`EXPOSE 8888` et `server.js`) avant de recompiler et lancer le conteneur.
+
+---
+
 ## Description
 
 Une application web Node.js conteneurisée se trouve dans le répertoire /home/admin/app. Créez un conteneur Docker pour accéder à l'application web sur le port 8888 et pouvoir y effectuer des requêtes curl. Pour que la solution soit valide, un seul conteneur Docker doit être en cours d'exécution.
