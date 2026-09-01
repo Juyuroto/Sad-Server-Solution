@@ -1,3 +1,8 @@
+# "Salta": Docker container won't start
+
+**Date** : 18/06/2026
+**Difficulté** : moyen
+
 ## Description
 
 Une application web Node.js conteneurisée se trouve dans le répertoire /home/admin/app. Créez un conteneur Docker pour accéder à l'application web sur le port 8888 et pouvoir y effectuer des requêtes curl. Pour que la solution soit valide, un seul conteneur Docker doit être en cours d'exécution.

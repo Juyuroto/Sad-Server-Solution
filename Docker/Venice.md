@@ -1,3 +1,8 @@
+# "Venice": Am I in a container?
+
+**Date** : 19/06/2026
+**Difficulté** : moyen
+
 ## Description
 
 Essayez de déterminer si vous vous trouvez à l'intérieur d'un conteneur (comme un conteneur Docker par exemple) ou à l'intérieur d'une machine virtuelle (comme dans les autres scénarios).

@@ -1,3 +1,8 @@
+# "Tarifa": Between Two Seas
+
+**Date** : 19/06/2026
+**Difficulté** : moyen
+
 ## Description
 
 Le fichier docker-compose.yml définit trois conteneurs Docker : un HAProxy acceptant les connexions sur le port 5000 de l'hôte, et deux conteneurs nginx non exposés à l'hôte.
