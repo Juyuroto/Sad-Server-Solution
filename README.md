@@ -6,7 +6,7 @@ Ce dépôt regroupe l'ensemble de mes solutions et write-ups pour les scénarios
 
 ## Liste des Scénarios
 
-### 🗄️ Database
+### Database
 | Scénario | Description | Fichier |
 | :--- | :--- | :--- |
 | **Bucharest** | Résolution de problèmes de réplication PostgreSQL et ajustement des paramètres du fichier de configuration (`postgres.conf`). | [`Bucharest.md`](./Database/Bucharest.md) |
