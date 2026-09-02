@@ -22,6 +22,7 @@ Ce dépôt regroupe l'ensemble de mes solutions et write-ups pour les scénarios
 | **Quito** | Prise de contrôle du daemon Docker de l'hôte depuis un conteneur via le montage de `/var/run/docker.sock`. (`docker.sock`). | [`Quito.md`](./Docker/Quito.md) |
 | **Salta** | Résolution d'un conflit de port (8888 occupé par Nginx) et correction d'erreurs dans le **Dockerfile** Node.js. | [`Salta.md`](./Docker/Salta.md) |
 | **Tarifa** | Debugging d'un load balancer HAProxy avec Docker Compose (correction des réseaux et conflits de ports Nginx). | [`Tarifa.md`](./Docker/Tarifa.md) |
+| **Torino** |  | [`Torino.md`](./Docker/Torino.md) |
 | **Venice** | Identification de l'environnement d'exécution (détection de virtualisation KVM vs conteneurisation). | [`Venice.md`](./Docker/Venice.md) |
 | **Woluwe** | Identification de l'image Docker sans faute de frappe via **docker history**, tag en **prod** et nettoyage des autres images. | [`Woluwe.md`](./Docker/Woluwe.md) |
 
